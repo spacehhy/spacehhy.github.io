@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>example</title>
+    <url>/2020/03/30/example/</url>
+    <content><![CDATA[<h1>一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<p><a href="http://localhost:4000/2020/04/07/testCategory/" target="_blank" rel="noopener">http://localhost:4000/2020/04/07/testCategory/</a></p>
+<p><code>$ rm -rf </code></p>
+<a id="more"></a>
+<figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"hello world"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<p><s>删除线</s><br>
+<strong>加粗</strong></p>
+<p><a href="http://www.baidu.com" target="_blank" rel="noopener">hexo</a>  表示超链接</p>
+<h2 id="大标题">大标题</h2>
+<h3 id="小标题">小标题</h3>
+<!-- more -->
+<!-- 标签别名 -->
+<h2 id="￼1-空格-中文全角空格表示"><blockquote class="blockquote-center"><p>blah blah blah</p>
+</blockquote><br>
+空格  中文全角空格表示</h2>
+<h2 id="文章标题">文章标题</h2>
+<blockquote>
+<p>内容     区块引用</p>
+</blockquote>
+<ul>
+<li>1</li>
+<li>2</li>
+<li>3<br>
+列表</li>
+<li>内容 *     表示强调内容<br>
+<img src="/path/to/img.jpg" alt="Alt text">  图片<br>
+<img src="/upload_image/20161012/1.png" alt=""></li>
+</ul>
+<blockquote class="blockquote-center">优秀的人，不是不合群，而是他们合群的人里面没有你</blockquote><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+</search>
